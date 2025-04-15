@@ -72,6 +72,6 @@ jobs:
           git add deploy/deploy.yaml
           git commit -m "Update deploy.yaml with new image version - ${{ env.VERSION }}"
           git remote set-url origin https://github-actions:${{ secrets.ACCESS_GITHUB_TOKEN }}@github.com/SIKANDERKUMBHAR/flask-game.git
-          git push origin master
+          git push origin main
 
 
