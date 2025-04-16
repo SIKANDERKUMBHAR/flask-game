@@ -30,10 +30,10 @@ jobs:
           pip install -r requirements.txt
           pip install flake8
           
-      # # Test the Code
-      # - name: Run Linting tests
-      #   run: |
-      #     flake8 --ignore=E501,F401 .
+      # Test the Code
+      - name: Run Linting tests
+        run: |
+          flake8 --ignore=E501,F401 .
       
       - name: Docker Credentials
         uses: docker/login-action@v2
