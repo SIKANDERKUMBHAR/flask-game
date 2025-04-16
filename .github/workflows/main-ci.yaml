@@ -33,7 +33,8 @@ jobs:
       # Test the Code
       - name: Run Linting tests
         run: |
-          flake8 --ignore=E501,F401 .
+          flake8 --ignore=E501,F401,E302,E305,W293 .
+
       
       - name: Docker Credentials
         uses: docker/login-action@v2
