@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: demo-app
-        image: sikanderali/flask-game:v20250416144859
+        image: sikanderali/flask-game:v20250416152036
         ports:
         - containerPort: 5000
